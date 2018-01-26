@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="hr.math.matej.bazapodataka.MainActivity">
+
+    <EditText
+        android:id="@+id/edittext"
+        android:layout_width="368dp"
+        android:layout_height="wrap_content"
+        android:hint="@string/url_download"
+        android:layout_marginLeft="16dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginTop="16dp"
+        android:layout_marginStart="16dp" />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/dl_button"
+        android:text="@string/download_btn"
+        android:onClick="downloadText"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginTop="62dp"
+        android:layout_marginLeft="16dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        android:layout_marginStart="16dp" />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/btn_ispisDB"
+        android:text="@string/ispisDB"
+        android:onClick="IspisiBazu"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginTop="62dp"
+        android:layout_marginLeft="141dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        android:layout_marginStart="141dp" />
+    <TextView
+        android:layout_width="368dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/textview"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginTop="124dp"
+        android:layout_marginLeft="8dp"
+        app:layout_constraintLeft_toLeftOf="parent" />
+
+</android.support.constraint.ConstraintLayout>
