@@ -37,13 +37,13 @@ public class MainActivity extends AppCompatActivity {
          db = new DBAdapter(this);
 
         //add page
-        /*db.open();
+        db.open();
         long id = db.insertPage("http://www.fitness.com.hr", "sport");
         id = db.insertPage("https://www.amazon.co.uk/", "shopping");
         id = db.insertPage("https://www.youtube.com","glazba");
         id = db.insertPage ("https://www.24sata.hr/","informacije");
         id = db.insertPage("https://www.math.pmf.unizg.hr","obrazovanje");
-        db.close();*/
+        db.close();
 
     }
 
